@@ -1,19 +1,39 @@
 {
   "routes": [
     {
-      "src": "^/form_spa(/.*)?$",
+      "src": "^/$",
+      "dest": "/index.html"
+    },
+    {
+      "src": "^/form_spa/?$",
       "dest": "/form_spa/dist/index.html"
     },
     {
-      "src": "^/spa_counter(/.*)?$",
+      "src": "^/form_spa/(.*)$",
+      "dest": "/form_spa/dist/index.html"
+    },
+    {
+      "src": "^/spa_counter/?$",
       "dest": "/spa_counter/dist/index.html"
     },
     {
-      "src": "^/theme(/.*)?$",
+      "src": "^/spa_counter/(.*)$",
+      "dest": "/spa_counter/dist/index.html"
+    },
+    {
+      "src": "^/theme/?$",
       "dest": "/theme/dist/index.html"
     },
     {
-      "src": "^/todo_list(/.*)?$",
+      "src": "^/theme/(.*)$",
+      "dest": "/theme/dist/index.html"
+    },
+    {
+      "src": "^/todo_list/?$",
+      "dest": "/todo_list/dist/index.html"
+    },
+    {
+      "src": "^/todo_list/(.*)$",
       "dest": "/todo_list/dist/index.html"
     }
   ]
