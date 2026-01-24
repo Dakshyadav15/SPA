@@ -4,6 +4,11 @@
       "src": "^/$",
       "dest": "/index.html"
     },
+
+    {
+      "src": "^/form_spa/assets/(.*)$",
+      "dest": "/form_spa/dist/assets/$1"
+    },
     {
       "src": "^/form_spa/?$",
       "dest": "/form_spa/dist/index.html"
@@ -11,6 +16,11 @@
     {
       "src": "^/form_spa/(.*)$",
       "dest": "/form_spa/dist/index.html"
+    },
+
+    {
+      "src": "^/spa_counter/assets/(.*)$",
+      "dest": "/spa_counter/dist/assets/$1"
     },
     {
       "src": "^/spa_counter/?$",
@@ -20,6 +30,11 @@
       "src": "^/spa_counter/(.*)$",
       "dest": "/spa_counter/dist/index.html"
     },
+
+    {
+      "src": "^/theme/assets/(.*)$",
+      "dest": "/theme/dist/assets/$1"
+    },
     {
       "src": "^/theme/?$",
       "dest": "/theme/dist/index.html"
@@ -27,6 +42,11 @@
     {
       "src": "^/theme/(.*)$",
       "dest": "/theme/dist/index.html"
+    },
+
+    {
+      "src": "^/todo_list/assets/(.*)$",
+      "dest": "/todo_list/dist/assets/$1"
     },
     {
       "src": "^/todo_list/?$",
